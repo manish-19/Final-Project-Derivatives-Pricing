@@ -1,4 +1,4 @@
-## What this phase does
+## What this does
 
 - CLI prompts: ticker → expiry → call/put → strike → manual `r`
 - Fetches real US equity option data from **Yahoo Finance** (`yfinance`)
