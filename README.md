@@ -1,4 +1,4 @@
-## What this does
+## What cli.py does
 
 - CLI prompts: ticker → expiry → call/put → strike → manual `r`
 - Fetches real US equity option data from **Yahoo Finance** (`yfinance`)
