@@ -1,9 +1,3 @@
-# Phase 1 — Market Data Collection (reference implementation)
-
-Runnable reference for the instructor. Students type this live in `BSM/` while
-reading the Video 1 spiekbrief. Do not copy wholesale into the recording folder
-ahead of time.
-
 ## What this phase does
 
 - CLI prompts: ticker → expiry → call/put → strike → manual `r`
@@ -44,5 +38,5 @@ bid, ask, last, volume, open interest, and implied volatility.
 Notes:
 
 - Yahoo `dividendYield` is messy; we prefer `trailingAnnualDividendYield` as decimal `q`.
-- Deep ITM/OTM implied vols on Yahoo are often noisy — validation will warn.
-- Risk-free rate is **manual** in Phase 1 on purpose.
+- Deep ITM/OTM implied vols on Yahoo are often noisy; validation will warn.
+- Risk-free rate is **manual** in Phase 1.
