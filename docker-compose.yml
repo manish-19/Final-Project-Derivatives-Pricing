@@ -1,0 +1,11 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+  pricing:
+    build: .
+    environment:
+      REDIS_URL: redis://redis:6379/0
+    depends_on:
+      - redis
